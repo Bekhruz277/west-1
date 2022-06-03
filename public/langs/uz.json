@@ -1,0 +1,36 @@
+{
+  "header": {
+    "main": "Asosiy",
+    "courses": "Kurslar",
+    "about": "Biz haqimizda",
+    "team": "Jamoa",
+    "ourStudents": "Bizning talabalarimiz"
+  },
+  "cards": {
+    "easyLearning": "Oson o'rganish",
+    "easyLearningText": "Og'riqning o'zi sevgi, asosiy saqlash tizimidir. eenat",
+    "reliableCourses": "Ishonchli kurslar",
+    "reliableCoursesText": "Og'riqning o'zi sevgi, asosiy saqlash tizimidir. eenat",
+    "accessories": "Aksessuarlar",
+    "accessoriesText":"Og'riqning o'zi sevgi, asosiy saqlash tizimidir. eenat"
+  },
+  "ourCourses": "Bizning kurslarimiz",
+  "courses": {
+    "forChildren": "Bolalar uchun",
+    "forTeenagers": "O'smirlar uchun",
+    "math": "Matematika kursi",
+    "ielts": "IELTS kursi"
+  },
+  "courseEnroll": "Yozilish",
+  "courseParts": {
+    "forChildren": "Bolalar uchun kurs",
+    "forChildrenText": "Keling, og'riqning o'zini, og'riqni va og'riqni, bu buyuk erkinliklarning kashfiyotchisini tanlashdagi xatoni, bizniki emas, ularning hech biri, narsalarning zavqini tekshirib ko'raylik. Ularni rad etish ba'zi og'riq va noqulayliklarni keltirib chiqaradi. Qachonki u ularni rad etsa, ularni azob va g'am bilan kutib oladilar, ammo zavqni kim qaytara oladi? Sizning mehnatlaringizning xushomadgo'yligini daf qiling! Javob: Yoki ular o'zlarini haqiqiy bezovtaliklardan ajratib turgandek. Dard va dardni qabul qilish va unga ergashish uchun, adolatli qonunga ko'ra, katta qiyinchiliklar erkinligi bor, chunki ular har qanday kishi vaqtni, hayot zavqlarini rad etish bilan qabul qilishini oldindan bilishadi. Biz me'morni qulaylik, og'riq, og'riq, og'riqdan saqlanishda ayblaymiz, shuning uchun yumshoqlik kamroq bezovtaliklarning ehtiyojlarini yomon ko'rmaydi;",
+    "forTeenagers": "O'smirlar uchun kurs",
+    "forTeenagersText": "Keling, og'riqning o'zini, og'riqni va og'riqni, bu buyuk erkinliklarning kashfiyotchisini tanlashdagi xatoni, bizniki emas, ularning hech biri, narsalarning zavqini tekshirib ko'raylik. Ularni rad etish ba'zi og'riq va noqulayliklarni keltirib chiqaradi. Qachonki u ularni rad etsa, ularni azob va g'am bilan kutib oladilar, ammo zavqni kim qaytara oladi? Sizning mehnatlaringizning xushomadgo'yligini daf qiling! Javob: Yoki ular o'zlarini haqiqiy bezovtaliklardan ajratib turgandek. Dard va dardni qabul qilish va unga ergashish uchun, adolatli qonunga ko'ra, katta qiyinchiliklar erkinligi bor, chunki ular har qanday kishi vaqtni, hayot zavqlarini rad etish bilan qabul qilishini oldindan bilishadi. Biz me'morni qulaylik, og'riq, og'riq, og'riqdan saqlanishda ayblaymiz, shuning uchun yumshoqlik kamroq bezovtaliklarning ehtiyojlarini yomon ko'rmaydi;",
+    "math": "Matematika kursi",
+    "mathText": "Keling, og'riqning o'zini, og'riqni va og'riqni, bu buyuk erkinliklarning kashfiyotchisini tanlashdagi xatoni, bizniki emas, ularning hech biri, narsalarning zavqini tekshirib ko'raylik. Ularni rad etish ba'zi og'riq va noqulayliklarni keltirib chiqaradi. Qachonki u ularni rad etsa, ularni azob va g'am bilan kutib oladilar, ammo zavqni kim qaytara oladi? Sizning mehnatlaringizning xushomadgo'yligini daf qiling! Javob: Yoki ular o'zlarini haqiqiy bezovtaliklardan ajratib turgandek. Dard va dardni qabul qilish va unga ergashish uchun, adolatli qonunga ko'ra, katta qiyinchiliklar erkinligi bor, chunki ular har qanday kishi vaqtni, hayot zavqlarini rad etish bilan qabul qilishini oldindan bilishadi. Biz me'morni qulaylik, og'riq, og'riq, og'riqdan saqlanishda ayblaymiz, shuning uchun yumshoqlik kamroq bezovtaliklarning ehtiyojlarini yomon ko'rmaydi;",
+    "ielts": "IELTS kursi",
+    "ieltsText": "Keling, og'riqning o'zini, og'riqni va og'riqni, bu buyuk erkinliklarning kashfiyotchisini tanlashdagi xatoni, bizniki emas, ularning hech biri, narsalarning zavqini tekshirib ko'raylik. Ularni rad etish ba'zi og'riq va noqulayliklarni keltirib chiqaradi. Qachonki u ularni rad etsa, ularni azob va g'am bilan kutib oladilar, ammo zavqni kim qaytara oladi? Sizning mehnatlaringizning xushomadgo'yligini daf qiling! Javob: Yoki ular o'zlarini haqiqiy bezovtaliklardan ajratib turgandek. Dard va dardni qabul qilish va unga ergashish uchun, adolatli qonunga ko'ra, katta qiyinchiliklar erkinligi bor, chunki ular har qanday kishi vaqtni, hayot zavqlarini rad etish bilan qabul qilishini oldindan bilishadi. Biz me'morni qulaylik, og'riq, og'riq, og'riqdan saqlanishda ayblaymiz, shuning uchun yumshoqlik kamroq bezovtaliklarning ehtiyojlarini yomon ko'rmaydi;o"
+  },
+  "ourTeam": "Bizning jamoamiz"
+}

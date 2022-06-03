@@ -1,0 +1,11 @@
+@mixin d-flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin boldText($family, $weight) {
+    font-family: $family;
+    font-weight: $weight;
+}

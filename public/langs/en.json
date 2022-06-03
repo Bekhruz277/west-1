@@ -1,0 +1,36 @@
+{
+  "header": {
+    "main": "Main",
+    "courses": "Courses",
+    "about": "About us",
+    "team": "Team",
+    "ourStudents": "Our students"
+  },
+  "cards": {
+    "easyLearning": "Easy learning",
+    "easyLearningText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ",
+    "reliableCourses": "Reliable courses",
+    "reliableCoursesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ",
+    "accessories": "Accessories",
+    "accessoriesText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas "
+  },
+  "ourCourses": "Our courses",
+  "courses": {
+    "forChildren": "For children",
+    "forTeenagers": "For teenagers",
+    "math": "Math course",
+    "ielts": "IELTS course"
+  },
+  "courseEnroll": "Enroll",
+  "courseParts": {
+    "forChildren": "Course for children",
+    "forChildrenText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque, eligendi error harum inventore libero magnam non, nostrum nulla quidem, rerum voluptas. Aliquid dolores eaque eos molestiae reiciendis. Ab aspernatur cumque, doloribus ea excepturi molestias porro quis repellat ullam voluptatem? Blanditiis molestias quasi sint. Ad assumenda atque consequuntur doloremque dolorum, esse, id iure iusto libero magni molestias mollitia nam provident quisquam reiciendis suscipit temporibus, vitae voluptatibus. Accusamus architecto commodi dolore dolores dolorum fuga ipsa itaque minus molestias mollitia necessitatibus non odit, optio perferendis placeat porro quaerat quibusdam reiciendis rem sint ut vero",
+    "forTeenagers": "Course for teenagers",
+    "forTeenagersText": "Lorem ipsum dolor sit amet, Dolore eaque, eligendi error harum inventore libero magnam non, nostrum nulla quidem, rerum voluptas. Aliquid dolores eaque eos molestiae reiciendis. Ab aspernatur cumque, doloribus ea excepturi molestias porro quis repellat ullam voluptatem? Blanditiis laborum, repellat! A aut, distinctio ex illo ipsa molestias quasi sint. Ad assumenda atque consequuntur doloremque dolorum, esse, id iure iusto libero magni molestias mollitia nam provident quisquam reiciendis suscipit temporibus, vitae voluptatibus. Accusamus architecto commodi dolore dolores dolorum fuga ipsa itaque minus molestias mollitia necessitatibus non odit, optio perferendis placeat porro quaerat quibusdam reiciendis rem sint ut vero",
+    "math": "The Math course",
+    "mathText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque, eligendi error harum inventore libero magnam non, nostrum nulla quidem, rerum voluptas. Aliquid dolores eaque eos molestiae reiciendis. Ab aspernatur cumque, doloribus ea excepturi molestias porro quis repellat ullam voluptatem? Blanditiis molestias quasi sint. Ad assumenda atque consequuntur doloremque dolorum, esse, id iure iusto libero magni molestias mollitia nam provident quisquam reiciendis suscipit temporibus, vitae voluptatibus. Accusamus architecto commodi dolore dolores dolorum fuga ipsa itaque minus molestias mollitia necessitatibus non odit, optio perferendis placeat porro quaerat quibusdam reiciendis rem sint ut vero",
+    "ielts": "The IELTS course",
+    "ieltsText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eaque, eligendi error harum inventore libero magnam non, nostrum nulla quidem, rerum voluptas. Aliquid dolores eaque eos molestiae reiciendis. Ab aspernatur cumque, doloribus ea excepturi molestias porro quis repellat ullam voluptatem? Blanditiis laborum, repellat! A aut, distinctio ex illo ipsa molestias quasi sint. Ad assumenda atque consequuntur mollitia nam provident quisquam reiciendis suscipit temporibus, vitae voluptatibus. Accusamus architecto commodi dolore dolores dolorum fuga ipsa itaque minus molestias mollitia necessitatibus non odit, optio perferendis placeat porro quaerat quibusdam reiciendis rem sint ut vero"
+  },
+  "ourTeam": "Our team"
+}

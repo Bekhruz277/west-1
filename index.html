@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West-Pro</title>
+    <!-- ! 3D SLIDER HTML -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- ! STYLE-SITE -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'><link rel="stylesheet" href="./css/main.css">
+    
+    <!-- ! SITE-LOGO-TITLE -->
+    <link rel="icon" href="./public/icons/logo.svg">
+    
+    <!-- ! ANIME - DARK THEME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ! JQUERY-AJAX -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- ! AOS LIBRARY -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    
+</head>
+
+<body>
+    <!-- <div class="loader"> -->
+           <!-- <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div> -->
+       </div> 
+    <!-- * ====== HEADER START ========= -->
+    <header>
+        <!-- * -------- NAVBAR START --------- -->
+        <nav class="header__navigation">
+            <div class="container navbar">
+                <div class="navbar__logo">
+                    <div class="navbar__logo-img">
+                        <img src="./public/icons/logo.svg" alt="logo">
+                    </div>
+                    <p class="navbar__logo-title">West-Pro</p>
+                </div>
+                <ul class="navbar__menu menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__item-link" id="header-main"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#our-courses" class="menu__item-link" id="header-courses"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#about" class="menu__item-link" id="header-about"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#team" class="menu__item-link" id="header-team"></a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#our-students" class="menu__item-link" id="header-our-students"></a>
+                    </li>
+                </ul>
+                <div class="navbar__icons icon">
+                    <div class="icon__lang">
+                        <img src="./public/icons/language.svg" alt="language" class="lang">
+                        <select class="icon__lang-title" id="select-lang" style="border: none; background: transparent">
+                            <option  value="ru">ru</option>
+                            <option value="en">en</option>
+                            <option value="uz">uz</option>
+                        </select>
+                    </div>
+                    <div class="icon__theme">
+                        <!-- <img src="./public/icons/sun.svg" alt="sun"> -->
+                    </div>
+                    <div class="icon__moon">
+                        <!-- <img src="./public/icons/moon.png" alt="moon.png"> -->
+                    </div>
+                    <div>
+                        <input type="checkbox" class="checkbox" id="chk" />
+                        <label class="label" for="chk">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                        <!-- !dasddddddddddddddddddddddddddddd -->
+                        <nav class="nav">
+                            <ul class="nav-links">
+                                <li><a href="#"></a>Home</li>
+                                <li><a href="#"></a>Home</li>
+                                <li><a href="#"></a>Home</li>
+                                <li><a href="#"></a>Home</li>
+                            </ul>
+                    
+                            <div class="burger">
+                                <div class="line-1"></div>
+                                <div class="line-2"></div>
+                                <div class="line-3"></div>
+                            </div>
+                        </nav>
+                        
+                        <!-- <div class="hum">
+                            <img src="./public/icons/humgurger.svg" alt="">
+                        </div>  -->
+                    </div>
+                    
+                    <!-- SOCIAL PANEL HTML -->
+                    <div class="social-panel-container">
+                        <div class="social-panel">
+                            <p>Created with <i class="fa fa-heart"></i> by
+                                <a target="_blank" href="https://florin-pop.com">Florin Pop</a></p>
+                            <button class="close-btn"><i class="fas fa-times"></i></button>
+                            <h4>Get in touch on</h4>
+                            <ul>
+                                <li>
+                                    <a href="https://www.patreon.com/florinpop17" target="_blank">
+                                        <i class="fab fa-discord"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/florinpop1705" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://linkedin.com/in/florinpop17" target="_blank">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://facebook.com/florinpop17" target="_blank">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/florinpop17" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__content-title">
+                West-Pro
+            </h1>
+        </div>
+
+        <!-- ! -------- NAVBAR END --------- -->
+
+    </header>
+
+    <!-- ! ======= HEADER END ========= -->
+
+    <!-- * ====== MAIN START ========= -->
+
+    <main class="main">
+        <div class="container">
+            <!-- * ------- CARDS SECTION START ------- -->
+
+            <section class="cards">
+                <h1 class="cards__title title">West-Pro</h1>
+                <div class="cards__items">
+                    <div class="cards__item item">
+                        <div class="item__logo"><img src="./public/icons/item1.svg" alt=""></div>
+                        <div class="item__title" id="cards-easy-learning"></div>
+                        <div class="item__desc" id="cards-easy-learning-text"></div>
+                    </div>
+                    <div class="cards__item item">
+                        <div class="item__logo"><img src="./public/icons/item2.svg" alt=""></div>
+                        <div class="item__title" id="cards-reliable-courses"></div>
+                        <div class="item__desc" id="cards-reliable-courses-text"></div>
+                    </div>
+                    <div class="cards__item item">
+                        <div class="item__logo"><img src="./public/icons/item3.svg" alt="book"></div>
+                        <div class="item__title" id="cards-accessories"></div>
+                        <div class="item__desc" id="cards-accessories-text"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ! ------- CARDS SECTION END ------- -->
+
+            <!-- * ------- COURSES SECTION START ------- -->
+
+            <section class="courses">
+                <h1 class="courses__title title" id="our-courses"></h1>
+                <div class="courses__items">
+                    <div class="courses__item item" id="courses-for-children">
+                        <div class="item__icon"><img src="./public/icons/book.svg" alt="book"></div>
+                        <p class="item__title" id="course-for-children"></p>
+                    </div>
+                    <div class="courses__item item" id="courses-for-teenagers">
+                        <div class="item__icon"><img src="./public/icons/book.svg" alt="book"></div>
+                        <p class="item__title" id="course-for-teenagers"></p>
+                    </div>
+                    <div class="courses__item item" id="courses-math">
+                        <div class="item__icon"><img src="./public/icons/book.svg" alt="book"></div>
+                        <p class="item__title" id="course-math"></p>
+                    </div>
+                    <div class="courses__item item" id="courses-ielts">
+                        <div class="item__icon"><img src="./public/icons/book.svg" alt="book"></div>
+                        <p class="item__title" id="course-ielts"></p>
+                    </div>
+                </div>
+                <div class="courses__content">
+                    <div class="courses__content-text text">
+                        <h1 class="text__title" id="course-title"></h1>
+                        <p class="text__desc" id="course-desc"></p>
+                        <a href="#registration" class="text__btn" id="course-enroll"></a>
+                    </div>
+                    <div class="courses__content-img">
+                        <img src="public/images/courses/math.png" alt="courses" id="course-img" style="height: 500px">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ! ------- COURSES SECTION END ------- -->
+
+        <!-- * ------- ABOUT SECTION START ------- -->
+
+        <section class="about" id="about">
+            <div class="container">
+                <h1 class="about__title title">О нас</h1>
+            </div>
+            <div class="about__content">
+                <div class="about__content-img">
+                    <img src="./public/images/about.png" alt="about">
+                </div>
+                <div class="about__content-text text">
+                    <p class="text__desc">Lorem ipsum dolor sit amet conctetur adipisicing elit. Voluptatibus acceptnda
+                        omnis tempora ullam псевдоним amet eveniet <br><br><br>
+                        voluptas, incidunt quasi aut officiis porro ad, Expedita saepe needitatibus rem debitis architeo
+                        dolore? Nam omnis sapiente placeat blanditiis voluptas dignissimos, itaque fugit a laudantium
+                        adipisci dolorem enim ipsum cum molestias? Quod quae molestias modi fugiat quisquam. Eligendi
+                        recusandae officiis debitis quas beatae aliquam?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ! ------- ABOUT SECTION END ------- -->
+
+        <!-- * -------- TEAM SECTION START ------- -->
+
+         <div class="container">
+            <section class="team">
+                <div class="team__title title" id="team"></div>
+                <div class="card mySwiper">
+                    <div class="team__items swiper-wrapper">
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                        <div class="team__item item swiper-slide">
+                            <div class="item__top">
+                                <div class="item__top-logo">
+                                    <img src="./public/icons/team-logo.svg" alt="team">
+                                </div>
+                                <div class="item__top-title">
+                                    <p class="top-title">Абдурасулова Райхон</p>
+                                    <p class="subtitle">Администратор</p>
+                                </div>
+                            </div>
+                            <p class="item__desc">
+                                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
+                                of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
+                                a Latin professor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+
+            
+
+        <!-- !-------- TEAM SECTION END --------- -->
+
+        <!-- * ------- STUDENTS SECTION START ------- -->
+
+        <section class="students">
+            <div class="container">
+                <h1 class="students__title title" id="our-students">Наши студенты</h1>
+                <p class="students__desc">Наши студенты выиграли гранты в топовых университетах мира. Удостоились
+                    поступить <br> в вузы Великобритании, США и других передовых стран и получали баллы до 8.5 по <br>
+                    IELTS. Большинство наших студентов являются студентами вузов как Westminster, <br>
+                    Mdist и других зарубежных университетов страны.</p>
+            </div>
+           
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"></div>
+                  <div class="swiper-slide"><img src="./public/images/ielts.png" alt="IELTS"> </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            <!-- <div class="students__content">
+                <div class="container">
+                     <div class="students__content-img">
+                        <img src="./public/images/ielts.png" alt="IELTS">
+                    </div>
+                    <div class="students__content-text text">
+                        <h1 class="text__title">Saida Azatova</h1>
+                        <p class="text__subtitle">Listenning: 8.5</p>
+                        <p class="text__subtitle">Reading: 8.5</p>
+                        <p class="text__subtitle">Speaking: 5.5</p>
+                        <p class="text__subtitle">Writing: 5.5</p>
+                        <p class="text__subtitle">Bandscore: 5.5</p>
+                    </div> 
+                </div>
+            </div> -->
+
+        </section>
+
+        <!-- ! ------- STUDENTS SECTION END ------- -->
+
+        <!-- * ------- REGISTRATION SECTION START ------- -->
+        <div class="container">
+            <div style="height: 30px" id="registration"></div>
+            <section class="registration">
+                <h1 class="registration__title title">Регистрация</h1>
+                <p class="registration__desc">Комплексный подход к вашему вопросу, своевременная правовую <br> помощь, представление интересов во всех судебных инстанциях. <br>
+                Комплексный подход к вашему вопросу, своевременная правовую <br> помощь, представление интересов во всех судебных инстанциях.</p>
+                <div class="registration__content content">
+                    <form class="content__inputs">
+                        <div class="content__group">
+                            <input type="email" class="content__input" placeholder=" ">
+                            <label class="content__label">E-mail</label>
+                        </div>
+                        <div class="content__group">
+                            <input type="number" class="content__input" placeholder=" ">
+                            <label class="content__label">Контактный телефон</label>
+                        </div>
+                        <div class="content__group">
+                            <input type="text" class="content__input" placeholder=" ">
+                            <label class="content__label">ФИО</label>
+                        </div>
+                        <div class="content__group">
+                            <input type="text" class="content__input" placeholder=" ">
+                            <label class="content__label">Тема вопроса</label>
+                        </div>
+                    </form>
+                    <div class="content__box">
+                        <label class="content__box-label">Оставить отзыв</label>
+                        <textarea name="content__rate" id="content__rate" cols="50" rows="10" class="content__rate"></textarea>
+                        <button class="content__btn" type="submit">Отправить</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ! ------- REGISTRATION SECTION END ------- -->
+
+        <!-- * ------- ANSWERS SECTION START ------- -->
+        <div class="answers">
+            <div class="answer_h1">
+                <h1>Почему именно West-pro?</h1>
+            </div>
+            <div class="bg_content">    
+            <div class="about_content1 container">
+              <div class="about_left">
+                <button class="accordion"><span>01</span>Non consectetur  lectus urna duis?</button>
+                <div class="panel">
+                  <p class="panel_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        
+                <button class="accordion"><span>02</span>Non consectetur na duis?</button>
+                <div class="panel">
+                  <p class="panel_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        
+                <button class="accordion"><span>03</span>Non consectetur a lectus urna duis?</button>
+                <div class="panel">
+                  <p class="panel_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+              <div class="about_right">
+<!--                <img src="./img/acc.png" width="100%" alt="">-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ! ------- ANSWERS SECTION END ------- -->
+
+        <!-- * ------- STATUS SECTION START ------- -->
+            <div class="status">
+                <div class="status_white">
+                    <div class="teacher_item">
+                        <img src="./public/icons/teacher.svg" alt="teacher.svg">
+                        <h1 class="h1_teacher">300</h1>
+                        <div class="hr"></div>
+                        <p class="p_teacher">Teacher</p>
+                    </div>
+                    <div class="students_item">
+                        <img src="./public/icons/teacher.svg" alt="teacher.svg">
+                        <h1 class="h1_students">300</h1>
+                        <div class="hr"></div>
+                        <p class="p_students">Students</p>
+                    </div>
+                    <div class="courses_item">
+                        <img src="./public/icons/teacher.svg" alt="teacher.svg">
+                        <h1 class="h1_courses">300</h1>
+                        <div class="hr"></div>
+                        <p class="p_courses">Courses</p>
+                    </div>
+                    <div class="years_item">
+                        <img src="./public/icons/teacher.svg" alt="teacher.svg">
+                        <h1 class="h1_years">300</h1>
+                        <div class="hr"></div>
+                        <p class="p_years">Years Completed</p>
+                    </div>
+                </div>
+            </div>
+        <!-- ! ------- STATUS SECTION END ------- -->
+        
+        <!-- * ------ LOCATION SECTION START ------ -->
+        <section class="location">
+            <div class="container">
+                <h1 class="location__title title">Место нахождения</h1>
+                <div class="location__items">
+                    <div class="location__item item">
+                        <div class="item__logo">
+                            <div class="item__logo-icon">
+                                <img src="./public/icons/gps.svg" alt="gps">
+                            </div>
+                            <a href="#" class="item__logo-title"> Adress</a>
+                        </div>
+                        <p class="item__desc">Patricia Place,<br>Sidney, BC, Canada</p>
+                    </div>
+                    <div class="location__item item">
+                        <div class="item__logo">
+                            <div class="item__logo-icon">
+                                <img src="./public/icons/email.svg" alt="email">
+                            </div>
+                            <a href="#" class="item__logo-title"> Email</a>
+                        </div>
+                        <p class="item__desc"> westpro@gmail.com<br>westpro@gmail.com</p>
+                    </div>
+                    <div class="location__item item">
+                        <div class="item__logo">
+                            <div class="item__logo-icon">
+                                <img src="./public/icons/phone.svg" alt="phone">
+                            </div>
+                            <a href="#" class="item__logo-title">Contact</a>
+                        </div>
+                        <p class="item__desc">+998 99 577 45 77<br>+998 99 577 45 77</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! ------ LOCATION SECTION END ------ -->
+
+        <footer class="footer">
+            <div class="footer__content">
+              <div class="container">
+                <div class="footer__inner">
+                  <div class="footer__info">
+                    <div class="footer__title">
+                        West-pro
+                    </div>
+                    <div class="footer__text">
+                      Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+                    </div>
+                 
+                    <ul class="footer__list">
+                      <li><a class="footer__phone" href="#">+99897-516-46-77</a></li>
+                      <li><a class="footer__phone" href="#">+99893-708-83-07</a></li>
+                      <li><a class="footer__adress" href="#">Хорезм: Ургенч</a></li>
+                    </ul>
+                    <div class="networks">
+                        <a href="https://www.instagram.com/westpro_/"><img src="./public/icons/insta.png" alt=""></a>
+                        <a href="https://t.me/westprolc"><img src="./public/icons/teleg.png" alt=""></a>
+                        <a href="https://facebook.com/"><img src="./public/icons/facebook.png" alt=""></a>
+                    </div>
+                  </div>
+                  <!-- <div class="footer__map">
+                    <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.124391996489!2d30.364922015731644!3d50.457408279476354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc919501b4ef%3A0x71a476f68f4c8246!2z0YPQuy4g0KTQtdC-0LTQvtGA0Ysg0J_Rg9GI0LjQvdC-0LksIDEzLCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1555013165886!5m2!1sru!2sua" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div> -->
+                  <div class="footer__map">
+                    <iframe height="250px" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d23878.335620119986!2d60.59313546084137!3d41.57374712182343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d41.5838245!2d60.5998246!4m5!1s0x41dfc8d375d42895%3A0x5d2ad029c59f60b0!2sWestPro%20Education%20HQ%2C%20Urgench!3m2!1d41.5626464!2d60.6208934!5e0!3m2!1sru!2s!4v1653734596485!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="footer__copy">
+            <div class="container">
+                <div class="copy__text">
+                    <p>Powered by:</p> 
+                    <a href="https://t.me/DerakiSoft"><img src="./public/icons/image 50.svg" alt=""></a>
+                </div>
+            </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- ! ====== MAIN END ========= -->
+
+
+    <!-- ! 3D-SLIDER-JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ! AOS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    <!--! Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script src="./app.js"></script>
+    <script src="./gmail.js"></script>
+</body>
+
+</html>
